@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>preview</LangVersion>
+    <Version>0.3.3</Version>
+    <Authors>Marcel Veldhuizen</Authors>
+    <NullableContextOptions>enable</NullableContextOptions>
+    <Copyright>Copyright (c) 2019 Marcel Veldhuizen</Copyright>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/Thorarin/Markdig.Adf</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Markdig" Version="0.16.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="[11.0.2,13)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
